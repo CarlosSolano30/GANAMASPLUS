@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Botón reutilizable */
+.btn {
+  @apply bg-blue-600 hover:bg-blue-700 text-white font-semibold p-3 rounded-lg w-full transition shadow;
+}
